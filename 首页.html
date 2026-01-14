@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>甜觅小站</title>
+		<link type="text/css" rel="stylesheet" href="css/通用.css">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link type="text/css" rel="stylesheet" href="css/banner.css">
+	</head>
+	<body class="first">
+		<div id="head">
+			<div class="head-left">
+			<h4>甜觅小站</h4>
+			<ul>
+				<li><a href="首页.html">首页</a></li>
+				<li><a href="分类面包界面.html">面包</a></li>
+				<li><a href="分类蛋糕界面.html">蛋糕</a></li>
+				<li><a href="分类饼干界面.html">饼干</a></li>
+				<li><a href="">更多</a></li>
+			</ul>
+			</div>
+			
+			<div class="head-right">
+			<span>搜索发现</span>
+			<a href="">用户界面</a>
+			</div>
+		</div>
+		
+		<div id="main">
+			<div class="swiper">
+			    <div id="banner" class="swiper-wrapper">
+			        <div class="swiper-slide">
+						<a href="分类面包界面.html"><img src="img/banner1.png"/></a>
+					</div>
+			        <div class="swiper-slide">
+						<a href="分类蛋糕界面.html"><img src="img/banner2.png"/></a>
+					</div>
+			        <div class="swiper-slide">
+						<a href="分类饼干界面.html"><img src="img/banner3.png"/></a>
+					</div>
+			    </div>
+				
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next"></div>
+				    
+				<!-- 如果需要滚动条 -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+			
+			<div id="REC">
+				<div id="class-title"><h3>甜品推荐</h3></div>
+				<a href="黄油曲奇.html"><div class="recommend"><img src="img/黄油曲奇1.png"/><div class="title" id="title1"><h4>黄油曲奇</h4></div></div></a>
+				<a href="萨赫蛋糕.html"><div class="recommend"><img src="img/萨赫蛋糕2.png"/><div class="title" id="title2"><h4>萨赫蛋糕</h4></div></div></a>
+				<a href="林茨饼干.html"><div class="recommend"><img src="img/林茨饼干1.png"/><div class="title" id="title3"><h4>林茨饼干</h4></div></div></a>
+				<a href="巧克力奇普.html"><div class="recommend"><img src="img/巧克力奇普2.png"/><div class="title" id="title4"><h4>巧克力奇普</h4></div></div></a>
+				<a href="可颂.html"><div class="recommend"><img src="img/可颂1.png"/><div class="title" id="title5"><h4>可颂</h4></div></div></a>
+				<a href="舒芙蕾.html"><div class="recommend"><img src="img/舒芙蕾2.png"/><div class="title" id="title6"><h4>舒芙蕾</h4></div></div></a>
+				<a href="日式红豆包.html"><div class="recommend"><img src="img/日式红豆包.png"/><div class="title" id="title7"><h4>日式红豆包</h4></div></div></a>
+				<a href="黑森林.html"><div class="recommend"><img src="img/黑森林1.png"/><div class="title" id="title8"><h4>黑森林蛋糕</h4></div></div></a>
+			</div>
+		</div>
+		<div id="foot">
+			<p>关于我们|联系我们|邮箱：2604072866@qq.com|友情链接</p>
+		</div>
+		
+		<script src="js/1.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script>        
+		  var mySwiper = new Swiper ('.swiper', {
+			  
+		    loop: true, // 循环模式选项
+		    autoplay: {
+		          delay: 3000, // 3秒自动切换
+		          disableOnInteraction: false, // 用户操作后不停止自动播放
+		        },
+		        speed: 800, // 切换速度（毫秒）
+		    // 如果需要前进后退按钮
+		    navigation: {
+		      nextEl: '.swiper-button-next',
+		      prevEl: '.swiper-button-prev',
+		    },
+			// 可选：显示分页指示器
+			    pagination: {
+			      el: '.swiper-pagination',
+			      clickable: true,
+			    },
+		  })        
+		
+		</script>
+		  
+	</body>
+</html>
