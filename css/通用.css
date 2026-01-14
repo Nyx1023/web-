@@ -1,0 +1,281 @@
+#head{
+	background-color: rgb(225,166,95);
+	height: 70px;
+	width: 100%;
+	margin: 0;
+}
+
+#head h4{
+	color: aliceblue;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: 2%;
+	font-size: 30px;
+	float: left;
+	line-height: 35px;
+}
+#head ul{
+	margin: 0px;
+	padding: 0px;
+}
+#head ul li{
+	height: 20px;
+	width: 5%;
+	margin: 25px 2%;
+	float: left;
+	display: inline;
+	font-weight: bold;
+}
+#head ul li a{
+	color: aliceblue;
+	margin: 0%;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+}
+.head-left{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.head-right{
+	width: 50%;
+	float: left;
+	text-align: right;
+	margin-top: 25px;
+	line-height: 20px;
+	font-size: 20px;
+}
+.head-right span{
+	color: aliceblue;
+	margin: 2%;
+	font-weight: bold;
+}
+.head-right a{
+	color: aliceblue;
+	text-decoration: none;
+	margin: 2%;
+	font-weight: bold;
+}
+.first{
+	background-image: url("../img/背景.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#main {
+	height: 1300px;
+	width: 100%;
+	float: left;
+}
+.swiper{
+	width: 80%;
+	height: 500px;
+	margin:30px 10%;
+	border-radius: 2%;
+	float: none;
+	box-shadow: 0 0 8px 3px lightsteelblue;
+}
+.swiper img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#REC{
+	width: 80%;
+	height: 600px;
+	margin: 20px 10%;
+}
+#REC #class-title{
+	height: 50px;
+	width: 100%;
+	margin-left: 2%;
+	font-size: 30px;
+	line-height: 30px;
+	color: rgb(157,105,100);
+}
+#REC .recommend{
+	width: 23%;
+	height: 310px;
+	float: left;
+	margin:10px 1%;
+	border-radius: 5%;
+	overflow: hidden;
+	box-shadow: 0 0 8px 3px lightsteelblue;
+	
+	position: relative;
+	cursor: pointer;
+}
+#REC .recommend img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+	object-fit: cover;
+}
+.title{
+	position: absolute;
+	bottom: -100%;
+	left: 0%;
+	background: linear-gradient(to top,rgba(100,40,19,1),rgba(100,40,19,0.5));
+	width: 100%;
+	height: 100%;
+	transition: bottom 0.4s ease;
+}
+.title h4{
+	margin-top: 80%;
+	margin-left:5% ;
+	color: aliceblue;
+	font-size: 30px;
+	transform: translateY(30px);
+	transition:transform 0.3s ease;
+}
+#left{
+	background-color: rgb(255,236,211);
+	height: 800px;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+#left img{margin-top: 20%;}
+#left h4{margin: 0%;}
+#left a{text-decoration: none;}
+#bisc{
+	height: 30%;
+	width: 96%;
+	margin: 5% 2%;
+	background-color: rgb(255,197,163);
+	border-radius: 2%;
+	box-shadow: 0 0 5px 3px lightgrey;
+}
+#cake{
+	height: 30%;
+	width: 96%;
+	margin: 5% 2%;
+	background-color: rgb(251,215,149);
+	border-radius: 2%;
+	box-shadow: 0 0 5px 3px lightgrey;
+}
+#bread{
+	height: 30%;
+	width: 96%;
+	margin: 5% 2%;
+	background-color: rgb(255,250,207);
+	border-radius: 2%;
+	box-shadow: 0 0 5px 3px lightgrey;
+}
+#bisc h4{color: rgb(189,39,59);}
+#cake h4{color: rgb(157,105,100);}
+#bread h4{color: rgb(255,147,0);}
+#display{
+	background-color: rgb(255,236,211);
+	height: 1000px;
+	width: 80%;
+	float: left;
+}
+.line{
+	width: 90%;
+	height: 30%;
+	margin: 1% 5%;
+	float: left;
+}
+.line .eat{
+	width: 23%;
+	height: 100%;
+	margin: 0% 1%;
+	background-color: rgb(139,69,19);
+	float: left;
+	border-radius: 5%;
+	box-shadow: 0 0 8px 2px lightsteelblue;
+}
+.eat img{
+	width: 90%;
+	height: 80%;
+	margin: 3% 5%;
+	object-fit: cover;
+}
+.eat h4{
+	margin: 0% 5%;
+	font-size: 20px;
+	color: rgb(255,236,211);
+	line-height: 20px;
+}
+#food-background{
+	background-color: rgb(255,236,211);
+	float: left;
+	width: 100%;
+}
+#food{
+	height: 1150px;
+	width: 80%;
+	float: left;
+}
+#food h3{
+	text-align: center;
+	font-size: 50px;
+	margin: 2%;
+	color: saddlebrown;
+}
+.introduce{height: 100px;}
+#food #img{
+	width: 33%;
+	height: 33%;
+	float: left;
+}
+#food #img img{ 
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#food p{
+	margin-top: 35%;
+	margin-bottom: 5%;
+	color: saddlebrown;
+}
+#food h4{
+	margin: 0 30%;
+	font-size: 30px;
+	color: saddlebrown;
+}
+#food a img{margin-left: 40%;}
+#user{
+	background-color:rgb(255,236,211);
+	height: 800px;
+	width: 80%;
+	float: left;
+}
+#user-information{
+	height: 30%;
+	margin: 2% 2%;
+}
+#user-information h4{margin: 0 0;}
+#user-like{
+	height: 50%;
+	margin: 2% 2%;
+}
+#user button{
+	margin-left: 40%;
+	line-height: 20px;
+	width: 100px;
+	height: 50px;
+}
+#foot{
+	background-color: aliceblue;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	margin: 0%;
+	float: left;
+}
+#foot p{margin: 10px;}
+
+/* 给左侧分类区域添加悬停效果 */
+#bisc:hover, #cake:hover, #bread:hover {
+    background-color: rgba(200, 100, 100, 0.1); /* 添加深色叠加 */
+}
+
+/* 给展示区域的每个食物项添加悬停效果 */
+.eat:hover {
+    background-color: rgb(110, 45, 10); /* 比原色深一些的颜色 */
+}
